@@ -1,5 +1,5 @@
 import React from "react";
-import SearchIcon from "@mui/icons-material/Search";
+// import SearchIcon from "@mui/icons-material/Search";
 
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
               <input placeholder="Search For Movies Here..." />
             </div>
             <button className="btn">
-              <SearchIcon className="searchicon" />
+              {/* <SearchIcon className="searchicon" /> */}
             </button>
           </div>
         </div>

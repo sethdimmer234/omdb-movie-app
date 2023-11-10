@@ -1,4 +1,10 @@
-import './App.css';
+// import './App.css';
+
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Nav from "./components/Nav"
+import Home from "./Pages/Home";
+import Footer from "./components/Footer";
+import Movies from "./Pages/Movies";
 
 function App() {
   return (
